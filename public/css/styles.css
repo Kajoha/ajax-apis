@@ -311,7 +311,12 @@ body {
   max-width: 601px;
   margin: 0 auto; }
 
-#welcome img {
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.welcome img {
   width: 100%; }
 
 #search {
@@ -334,3 +339,25 @@ input[type="search"] {
 input[type="search"]:focus {
   background: #fff;
   width: 300px; }
+
+#list {
+  margin-top: 100px; }
+
+.listContent {
+  background-color: #aeb6bf;
+  padding: 1%;
+  margin-top: 5px; }
+  .listContent h1 {
+    margin: 0;
+    padding: 2%;
+    color: #3D3534;
+    font-size: 1.5rem; }
+  .listContent img {
+    width: 150px;
+    height: 225px;
+    padding: 5%; }
+  .listContent p {
+    color: #3D3534; }
+  .listContent div {
+    margin-left: 35px;
+    float: left; }
