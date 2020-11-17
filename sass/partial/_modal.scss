@@ -1,0 +1,27 @@
+
+.modal-content {
+  align-content: center;
+
+  a:hover {
+    color: #ffffff;
+ }
+
+}
+
+.modal {
+  background-color: rgba(61, 60, 60, 0.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 0s;
+}
+
+#modal:target {
+  opacity:1;
+  pointer-events:auto;
+}
+
