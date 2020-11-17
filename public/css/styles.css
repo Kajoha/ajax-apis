@@ -349,7 +349,12 @@ input[type="search"]:focus {
   font-size: 1rem; }
 
 .modal-content {
-  align-content: center; }
+  width: 450px;
+  height: auto;
+  margin: 5% auto;
+  position: relative; }
+  .modal-content a {
+    color: salmon; }
   .modal-content a:hover {
     color: #ffffff; }
 

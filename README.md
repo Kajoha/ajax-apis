@@ -1,3 +1,3 @@
 ## Mejora
 
-Como mejora se realizará un zoom a la imagen apenas se posicione el mouse encima de está.
+Se muestra el total de resultados de la busqueda y se le aplico un modal a las imagenes, para que se muestren en grande.

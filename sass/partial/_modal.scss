@@ -1,6 +1,13 @@
 
 .modal-content {
-  align-content: center;
+  width:450px;
+  height: auto;
+  margin: 5% auto;
+  position: relative;
+
+  a {
+    color: salmon;
+  }
 
   a:hover {
     color: #ffffff;
