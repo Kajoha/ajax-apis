@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Project movie</title>
   <link rel="stylesheet" href="public/css/styles.css">
 </head>
+
 <body>
   <div id="wrapper">
-    <div id="welcome">
+    <div class="welcome">
       <img src="img/cover.png" alt="">
     </div>
-    <div id="search">
+    <div id="search" class="clearfix">
       <label>Search</label>
-      <input type="search" placeholder="In the api">
-  </div>
+      <input id="_search" type="search" placeholder="In the api">
+    </div>
+    <div id="totalDiv">
+      <h4 id="total">Total: 0</h4>
+      <!-- <a href="#modal">aqui</a> -->
+    </div>
+    <div id="list">
+    </div>
+    <div id="under" class="welcome">
+      <img src="img/under.png" alt="">
+    </div>
+    <div id="modal" class="modal">
+      <p class="modal-content"><a href="">X</a></p>
+      <img id="modal-movie-image">
+    </div>
   </div>
   <script src="js/script.js"></script>
 </body>
+
 </html

@@ -340,24 +340,71 @@ input[type="search"]:focus {
   background: #fff;
   width: 300px; }
 
+#totalDiv {
+  margin-top: 90px; }
+
+#total {
+  float: right;
+  color: #3D3534;
+  font-size: 1rem; }
+
+.modal-content {
+  align-content: center; }
+  .modal-content a:hover {
+    color: #ffffff; }
+
+.modal {
+  background-color: rgba(61, 60, 60, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0s; }
+
+#modal:target {
+  opacity: 1;
+  pointer-events: auto; }
+
 #list {
-  margin-top: 100px; }
+  margin-top: 150px; }
 
 .listContent {
-  background-color: #aeb6bf;
   padding: 1%;
-  margin-top: 5px; }
-  .listContent h1 {
-    margin: 0;
-    padding: 2%;
-    color: #3D3534;
-    font-size: 1.5rem; }
-  .listContent img {
-    width: 150px;
-    height: 225px;
-    padding: 5%; }
-  .listContent p {
+  margin-top: 10px;
+  border-top: 2px solid #3D3534; }
+
+h1 {
+  margin: 0;
+  padding: 2%;
+  color: #3D3534;
+  font-size: 1.5rem; }
+
+.button {
+  background-color: #aeb6bf;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  color: #3D3534;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0 0 10px 420px; }
+
+.style {
+  width: 50%;
+  float: left; }
+  .style img {
+    width: 100%;
+    height: auto; }
+  .style h6 {
+    padding-left: 3%;
+    font-size: 1rem;
     color: #3D3534; }
-  .listContent div {
-    margin-left: 35px;
-    float: left; }
+  .style span {
+    padding-left: 3%;
+    font-size: 1rem;
+    color: #3D3534;
+    font-weight: bold; }
